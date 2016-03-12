@@ -1,7 +1,7 @@
 from urllib.parse import urljoin
 import requests
 
-from pyservice import exceptions
+from restservice import exceptions
 
 
 class Endpoint(object):

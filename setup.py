@@ -15,7 +15,9 @@ setup(
     author='Your Name',
     author_email='yourname@example.com',
     classifiers=[],
-    # test_suite='tests',
+    install_requires=[
+        'requests',
+    ],
     setup_requires=['pytest-runner', ],
     tests_require=['pytest', 'mock', ],
 )

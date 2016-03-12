@@ -3,8 +3,8 @@ import requests
 import json
 from mock import patch
 
-from pyservice.builder import Service, Endpoint
-from pyservice.exceptions import ServiceException
+from restservice.builder import Service, Endpoint
+from restservice.exceptions import ServiceException
 
 
 class ServiceTestCase(unittest.TestCase):
